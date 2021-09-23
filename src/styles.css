@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  overflow-x: auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  /* min-width: 300px; */
+}
+
+th {
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  background-color: aqua;
+}
+
+td.totals {
+  padding-left: 25px;
+}
+
+.brackets {
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  background-color: blue;
+}
+
+.categoryLabel {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+/* .hideFundRow {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+} */
+
+.label {
+  background-color: rgb(235, 235, 235);
+}
+
+.categoryLabelContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtotal {
+  background-color: rgb(255, 0, 179);
+}
+
+.total {
+  background-color: red;
+}
